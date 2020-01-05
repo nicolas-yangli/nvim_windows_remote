@@ -4,6 +4,13 @@ version = "0.1.0"
 authors = ["nicolasyang <bill.lee.y@gmail.com>"]
 edition = "2018"
 
+repository = "https://github.com/nicolas-yangli/nvim_windows_remote"
+readme = "README.md"
+license = "Apache-2.0"
+description = "Edit a file in an existing neovim instance."
+categories = ["command-line-utilities", "os::windows-apis"]
+keywords = ["neovim"]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
