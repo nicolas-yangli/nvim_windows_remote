@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nicolas-yangli/nvim_windows_remote.svg?branch=master)](https://travis-ci.org/nicolas-yangli/nvim_windows_remote)
+
 Edit a file in an existing neovim instance.
 
 # Usage
