@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 rmp = "^0.8"
+clap = "~2.33"
