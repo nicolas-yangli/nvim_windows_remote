@@ -1,10 +1,13 @@
 language: rust
 os: windows
+script:
+    cargo test --verbose && cargo build --release
 deploy:
   provider: releases
   api_key:
     secure: bWmlg8jyXXYx1dAsblhOOcvhOBplV5MyVTxuyX8XTzkvmpCsp2Slyfw46SaVhPI3UXmM/1TIIBDfzLWQ7ngW+k7tdwLs+GE/yBn/NItysOlaSwd8hfagwNGdB+qBBgHtcsXCEmmSpmTEuwsdZGoH75QxFRnq5H2/x8ZDxSFTNlHV9Lu6n3vWuf0/Z29LbXwd6D1L7VdFJXW9IiT6jGFsIwOW6Qamv3KGe9/F0u0WyCqaSJTsoQbcGl06TDdBKrBma7N2uIEQagn1YQxF+5e9u1qd7HAF9XcFjUa+mevxc1lqHLiPQTn5HXtt98XX0ZIXsyle3nP7PGYQw4XYwQuvj1Q6vfi4Wccxw9ekfAIg125aLWG0yjNs9qYODbZAsaPws3ujrO7PsFJN3UAnFJpLrhAZWYSRz08JnO9SF8kfKhWEzAbwg4Kb03wNkgZ+3uVd6lQ/gmICJv4JIEMaRLG/FDWexBrwX69NnbZPPFjSkuUyJ5Tls+qWRwqi+NPZ+yBuU30RjZCYtxO/pnf/Pt6Im1HcxFHfjy03QNPeHAPtOgc1mu6uhRSSC7chsvLbLsgubzczN/RaB/TOTfeJPDUtGh1dcvV0CE0qC/9ThHOWLsXScfUgMa23geH4bqSMaBl7APQT9Xrs5wZ0DB6h6aBs1GytkxkHw4W0OeFgKeNGh94=
   file: target/release/nvim_windows_remote.exe
+  skip_cleanup: true
   on:
     repo: nicolas-yangli/nvim_windows_remote
     tags: true
