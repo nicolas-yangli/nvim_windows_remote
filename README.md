@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nicolas-yangli/nvim_windows_remote.svg?branch=master)](https://travis-ci.org/nicolas-yangli/nvim_windows_remote)
+[![Build Status](https://travis-ci.org/nicolas-yangli/nvim_windows_remote.svg?branch=master)](https://travis-ci.org/nicolas-yangli/nvim_windows_remote) ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/nicolas-yangli/nvim_windows_remote?include_prereleases) [![GitHub license](https://img.shields.io/github/license/nicolas-yangli/nvim_windows_remote)](https://github.com/nicolas-yangli/nvim_windows_remote/blob/master/LICENSE)
 
 Edit a file in an existing neovim instance.
 
